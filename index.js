@@ -78,13 +78,13 @@ function total() {
 
 function removeFromCart(item) {
   
-  var searchItem;
+
   
   for (let i = 0; i < getCart().length; i++) {
     
     if (getCart()[i].itemName === item) {
       
-      getCart().
+      getCart().splice([i], 1);
     }
     
   }
@@ -94,13 +94,9 @@ function removeFromCart(item) {
   if (getCart().indexOf(item) === -1) {
     
     return "That item is not in your cart.";
-    
-  } else if (getCart().indexOf(item) > -1) {
-    
-    
+ 
   }
-  
-  return getCart();
+    
   
 }
 
