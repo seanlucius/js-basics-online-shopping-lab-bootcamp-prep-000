@@ -84,7 +84,7 @@ function removeFromCart(item) {
     
     if (getCart()[i].itemName === item) {
       
-      
+      getCart().
     }
     
   }
