@@ -82,7 +82,7 @@ function removeFromCart(item) {
   
   for (let i = 0; i < getCart().length; i++) {
     
-    
+    if (getCart())
     
   }
   
