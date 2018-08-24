@@ -77,7 +77,17 @@ function total() {
 }
 
 function removeFromCart(item) {
-  let itemSearch = 
+  
+  var searchItem;
+  
+  for (let i = 0; i < getCart().length; i++) {
+    
+    
+    
+  }
+  
+  
+  
   if (getCart().indexOf(item) === -1) {
     
     return "That item is not in your cart.";
